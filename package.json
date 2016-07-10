@@ -1,0 +1,33 @@
+{
+  "name": "pachong",
+  "version": "1.0.0",
+  "description": ">* express >* fs >* cheerio >* superagent >* cookie-parser >* body-parser >* node-schedule ### express介绍 [基于 Node.js 平台，快速、开放、极简的 web 开发框架](http://www.expressjs.com.cn)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesseZhao1990/pachong.git"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "body-parser": "^1.15.1",
+    "bootstrap": "^3.3.6",
+    "cheerio": "^0.20.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "fontawesome": "^4.5.0",
+    "jquery": "^2.2.4",
+    "multer": "^1.1.0",
+    "node-schedule": "^1.1.0",
+    "superagent": "^2.0.0"
+  },
+  "author": "zhaojianxin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesseZhao1990/pachong/issues"
+  },
+  "homepage": "https://github.com/JesseZhao1990/pachong#readme"
+}

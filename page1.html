@@ -1,0 +1,102 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome-4.6.3/css/font-awesome.css">
+	<script type="text/javascript" src="jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="bootstrap/dist/js/bootstrap.js"></script>
+	<style type="text/css">
+	strong + table {
+    margin-top: 10px;
+	}
+	.table.table-model-2 > thead > tr {
+    background: #f6f6f6;
+	}
+	.table{
+		text-align: center;
+	}
+	.table thead tr th{
+		text-align: center;
+	}
+	.table td a{
+		color: rgb(51, 51, 51);
+		list-style: none;
+	}
+	.fa-search{
+		cursor: pointer;
+	}
+	.fa-search:hover{
+		color:#323B55;
+	}
+	</style>
+</head>
+<body>
+	<div>
+		<table class="table table-model-2 table-hover">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>类别</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+
+			<tbody id="catagraylist">
+				<!-- <tr>
+					<td>1</td>
+					<td><a href="www.baidu.com">baidu</a></td>
+					<td><i class="fa fa-search" aria-hidden="true"></i></td>
+				</tr> -->
+
+				<tr>
+					<td></td>
+					<td>请稍等。。。后台正在运算。。。</td>
+					<td></td>
+				</tr>
+
+				<!-- <tr>
+					<td>3</td>
+					<td>Filan</td>
+					<td>Fisteku</td>
+				</tr> -->
+			</tbody>
+		</table>
+	</div>
+</body>
+
+<div id ="company-list-modal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">本类别中不带帮帮标志的公司</h4>
+      </div>
+      <div class="modal-body">
+        <table class="table table-model-2 table-hover">
+			<thead>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td><a target="_blank" href="http://www.baidu.com">baidu</a></td>
+					<td><i class="fa fa-search"></i></td>
+				</tr>
+				<!-- <tr>
+					<td>3</td>
+					<td>Filan</td>
+					<td>Fisteku</td>
+				</tr> -->
+			</tbody>
+		</table>
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="js/page1.js"></script>
+</html>
